@@ -59,7 +59,7 @@ commentsRouter.post(
   }
 );
 
-// Patch request to update comments
+//Patch request to update comments
 commentsRouter.patch(
   "/:id",
   isLoggedIn("user", "admin"),
