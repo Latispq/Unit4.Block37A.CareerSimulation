@@ -34,7 +34,7 @@ const createTables = async () => {
             title VARCHAR(100) NOT NULL,
             artist VARCHAR(100) NOT NULL,
             genre VARCHAR(50),
-            releaseDate DATE,
+            releaseDate INTEGER,
             imgURL VARCHAR(255)
         )`);
     await db.query(`
